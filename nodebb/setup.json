@@ -1,0 +1,12 @@
+{
+	"url": "http://localhost:4567/forum",
+	"database": "redis",
+	"port": 4567,
+	"setup": "{\"admin:username\":\"admin\",\"admin:password\":\"password\",\"admin:password:confirm\":\"password\",\"admin:email\":\"admin@example.com\"}",
+	"redis": {
+		"host": "blog-redis",
+		"port": "6379",
+		"database": "0"
+	},
+	"type": "literal"
+}
