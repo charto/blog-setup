@@ -13,7 +13,7 @@ USER user
 # Install Ghost.
 
 RUN \
-	ghost install 1.22.3 \
+	ghost install 1.25.3 \
 	--db sqlite3 \
 	--process local \
 	--no-stack \

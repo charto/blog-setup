@@ -14,7 +14,7 @@ USER user
 # without attempting to start the server yet.
 
 RUN \
-	git clone --branch v1.8.2 --depth 1 https://github.com/NodeBB/NodeBB.git /opt/nodebb && \
+	git clone --branch v1.10.1 --depth 1 https://github.com/NodeBB/NodeBB.git /opt/nodebb && \
 	cd /opt/nodebb && \
 	./nodebb --version && \
 	npm install nodebb-plugin-blog-comments
